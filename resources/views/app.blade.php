@@ -8,6 +8,9 @@
     <!-- Fetch project name dynamically -->
     <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
+    {{-- Css --}}
+    @vite('resources/css/app.css')
+
     <!-- Scripts -->
     @vite('resources/js/app.js') @inertiaHead
 </head>
