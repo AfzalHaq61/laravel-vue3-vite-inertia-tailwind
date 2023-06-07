@@ -1,9 +1,14 @@
 <template>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <!-- Page Title -->
+    <Head title="Dashboard" />
+    <Layout>
+        <div>
+            <h1 class="text-white">Home Page</h1>
+        </div>
+    </Layout>
 </template>
 
-<script lang="ts" setup>
+<script setup>
+import Layout from "@/Layouts/AuthenticatedLayout.vue";
 
 </script>
